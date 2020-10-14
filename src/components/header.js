@@ -1,6 +1,7 @@
 import React from "react"
 import { css } from "@emotion/core"
 import Nav from "./Nav"
+import { Link } from "gatsby"
 
 function Header() {
   return (
@@ -21,14 +22,18 @@ function Header() {
           }
         `}
       >
-        <h1
+        <Link
+          to="/"
           css={css`
             color: white;
             text-align: center;
+            text-decoration: none;
+            font-size: 4rem;
+            font-family: "pt sans", sans-serif;
           `}
         >
           Gatsby Hotel
-        </h1>
+        </Link>
         <Nav />
       </div>
     </header>

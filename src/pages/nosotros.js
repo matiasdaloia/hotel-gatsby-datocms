@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
+import ContenidoNosotros from "../components/ContenidoNosotros"
 
 function nosotros() {
   return (
     <>
       <Layout>
-        <h1>Desde Nosotros</h1>
+        <ContenidoNosotros />
       </Layout>
     </>
   )

@@ -4,7 +4,7 @@ import BackgroundImage from "gatsby-background-image"
 import styled from "@emotion/styled"
 
 const ImageBackground = styled(BackgroundImage)`
-  height: 700px;
+  height: 100vh;
 `
 
 const TextoImagen = styled.div`
